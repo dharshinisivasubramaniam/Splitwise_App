@@ -36,5 +36,12 @@ class lab1{
         System.out.println("casting: "+(int) value1); //convert int into double then print (doesn't change original value)
         System.out.println("round off then casting: "+(int) Math.round(value1)); //round off -> convert -> print (doesn't change original value)
 
+        System.out.println();
+
+        //Division trap
+        System.out.println("Division trap");
+        System.out.println("int div: "+5/2); // int/int = int
+        System.out.println("cast num: "+(double) 5/2); // double/int = double
+        System.out.println("cast both num & denom: "+(double) (5/2)); // double/double = double (here 5/2 perform first no decimal part given to double so 2.0)
     }
 }
