@@ -28,6 +28,13 @@ class lab1{
         amount=1200.0;
         System.out.println("after change: "+amount);//after changing
 
+        System.out.println();
+
+        //Casting
+        System.out.println("Casting");
+        double value1 = 9.7;
+        System.out.println("casting: "+(int) value1); //convert int into double then print (doesn't change original value)
+        System.out.println("round off then casting: "+(int) Math.round(value1)); //round off -> convert -> print (doesn't change original value)
 
     }
 }
