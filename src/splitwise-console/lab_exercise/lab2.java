@@ -74,6 +74,23 @@ class lab2
 
         System.out.println(message); //  printing returned value
 
+        System.out.println();
 
+        //loops
+        System.out.println("loops");
+        System.out.println("Print numbers 1 to 5 using for :");
+        for(int i=1;i<=5;i++)
+        {
+            System.out.print(i+" "); //print a number in same line by giving space
+        }
+        System.out.println();
+
+        System.out.println("Print numbers 5 down to 1 using while");
+        int i=5; //start from 5
+        while (i<=5 && i>0) // numbers should be btw 1 and 5
+        {
+            System.out.print(i+" "); // print a number in same line by giving space
+            i--; // number reduce by 1
+        }
     }
 }
