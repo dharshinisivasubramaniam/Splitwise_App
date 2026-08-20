@@ -53,6 +53,27 @@ class lab2
             System.out.println("Invalid choice");
         }
 
+        System.out.println();
+
+        //switch expression
+        System.out.println("switch expression");
+        System.out.println("---Menu---"); // displaying menu
+        System.out.println("1. Add");
+        System.out.println("2. View");
+        System.out.println("3. Exit");
+        System.out.print("Enter choice:");
+
+        int choice2 = sc.nextInt();
+
+        String message = switch (choice2) { // return some value
+            case 1 -> "Add";
+            case 2 -> "View";
+            case 3 -> "Exit";
+            default -> "Invalid choice";
+        };
+
+        System.out.println(message); //  printing returned value
+
 
     }
 }
