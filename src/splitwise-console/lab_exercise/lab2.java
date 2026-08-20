@@ -14,5 +14,14 @@ class lab2
         System.out.println("Neg value mod pos value: "+(-10%3)); // numerator sign will be the sign of result
         System.out.println("pos value mod neg value: "+(10%-3)); // numerator sign will be the sign of result
 
+        System.out.println();
+
+        //Relational and boolean
+        System.out.println("Relational and boolean");
+        int choice=2;
+        System.out.println(choice==2); // check for equal
+        System.out.println(choice!=3); // check for not equal
+        System.out.println(choice>1 && choice<=3); // boolean operator to combine two relational expression
+
     }
 }
